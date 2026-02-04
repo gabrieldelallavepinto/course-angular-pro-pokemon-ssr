@@ -1,0 +1,17 @@
+<div class="bg-white/25 h-44 rounded-lg shadow-md flex flex-col justify-center items-center">
+
+  <div class="rounded-full bg-gray-300 w-24 h-24">
+    <img
+    [src]="pokemon().imageUrl"
+    [alt]="pokemon().name"
+    class="w-24 h-24"
+    width="96px"
+    height="96px"
+  />
+  </div>
+  <div class="flex text-center mt-5">
+      <h2 class="min-h-4 min-w-20 pr-1 pl-1 bg-gray-300 text-black rounded">
+        {{ pokemon().name }}
+      </h2>
+    </div>
+</div>
